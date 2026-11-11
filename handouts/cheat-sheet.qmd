@@ -1,0 +1,95 @@
+---
+pagetitle: "Library Mapathon: cheat sheet"
+format:
+  html:
+    minimal: true
+    embed-resources: true
+    css: handouts.css
+lang: en
+---
+
+```{=html}
+<div class="head">
+  <div>
+    <div class="eyebrow">Library Mapathon · cheat sheet · keep this</div>
+    <h1>Mapping in OpenStreetMap</h1>
+  </div>
+  <div class="meta">This month's project<br><b>#{{< var project.number >}}</b><br>Search for it at tasks.hotosm.org</div>
+</div>
+
+<h2>The three names</h2>
+<table>
+  <tr><th>Name</th><th>What it is</th><th>Where</th></tr>
+  <tr><td><b>OpenStreetMap (OSM)</b></td><td>The free map of the world that anyone can edit. Your account lives here.</td><td>openstreetmap.org</td></tr>
+  <tr><td><b>HOT Tasking Manager</b></td><td>Where the Humanitarian OpenStreetMap Team lists projects, split into squares (tasks).</td><td>tasks.hotosm.org</td></tr>
+  <tr><td><b>iD editor</b></td><td>The editor that runs in your browser. This is where you map.</td><td>Opens from a task's Map button</td></tr>
+</table>
+
+<h2>Before you start</h2>
+<p>Make a free account at openstreetmap.org (<span class="path">Sign Up</span>) and click the link in your confirmation email. Log in at tasks.hotosm.org with it (<span class="path">Log in</span>). New to iD? Do the 10-minute walkthrough: on openstreetmap.org, <span class="path">Edit</span>, then <span class="path">Help<span class="sep">›</span>Start the walkthrough</span>.</p>
+<div class="check">your OSM username shows at the top right of the Tasking Manager.</div>
+
+<h2>Add to the map</h2>
+<p>Work at your own pace. Each step ends with a checkpoint you can see on your own screen.</p>
+<ol class="mapsteps">
+  <li><b>Pick a square.</b> At tasks.hotosm.org, search for this month's project number and open it. Read the instructions: what to map, and which imagery to use. Pick an available square: <span class="path">Map<span class="sep">›</span>iD Editor</span>.
+    <div class="check">the project number matches #{{< var project.number >}}, and the task is locked for mapping by you.</div></li>
+  <li><b>Trace in iD</b> only what the instructions ask for, inside your square. Projects differ: some ask for buildings, some for roads, some for both.
+    <div class="check">click something you traced: the left panel names a feature type the instructions asked for.</div></li>
+  <li><b>Save and submit.</b> <span class="path">Save</span> every 10 to 20 features. Keep the project hashtag in the comment, add <b>{{< var hashtag >}}</b> and a few words on what you mapped, then <span class="path">Upload</span>. Back in the Tasking Manager: answer yes to "completely mapped" and submit, or choose <span class="path">Stop mapping</span>. Both are fine.
+    <div class="check">the Save button shows 0 unsaved edits, and your square changes color on the project map.</div></li>
+</ol>
+
+<h2>Task square colors</h2>
+<p>The project map shows each square's status. Hover over a square, or check the legend on the project page, to see which squares are available, locked by someone, mapped, or validated. Only pick an available square.</p>
+
+<h2>Mapping responsibly</h2>
+<p>From satellite imagery you can see the shapes of buildings and roads, not what a place is called or how people use it. People who live there add those details. Follow the project's instructions, map only what you can clearly see, and leave names and labels to local mappers.</p>
+
+<div class="pagebreak"></div>
+
+<h2>Keyboard shortcuts in iD</h2>
+<p>On a Mac, use <kbd>⌘</kbd> for <kbd>Ctrl</kbd> and <kbd>Option</kbd> for <kbd>Alt</kbd>. Press <kbd>?</kbd> in iD for the full list.</p>
+<table>
+  <tr><th>Key</th><th>Does</th><th>Key</th><th>Does</th></tr>
+  <tr><td><kbd>1</kbd> / <kbd>2</kbd> / <kbd>3</kbd></td><td>Add a point / line / area</td><td><kbd>Ctrl</kbd>+<kbd>Z</kbd></td><td>Undo</td></tr>
+  <tr><td><kbd>Enter</kbd> or <kbd>Esc</kbd></td><td>Finish drawing</td><td><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Z</kbd></td><td>Redo</td></tr>
+  <tr><td>Hold <kbd>Alt</kbd></td><td>Draw without snapping to nearby features</td><td><kbd>Ctrl</kbd>+<kbd>S</kbd></td><td>Save</td></tr>
+  <tr><td><kbd>Q</kbd></td><td>Square the corners</td><td><kbd>W</kbd></td><td>Wireframe view, to see the imagery under features</td></tr>
+  <tr><td><kbd>O</kbd></td><td>Make it round</td><td><kbd>B</kbd></td><td>Background imagery panel</td></tr>
+  <tr><td><kbd>M</kbd> / <kbd>R</kbd></td><td>Move / rotate the selected feature</td><td><kbd>Ctrl</kbd>+<kbd>B</kbd></td><td>Switch to the previous imagery</td></tr>
+  <tr><td><kbd>Ctrl</kbd>+<kbd>Backspace</kbd></td><td>Delete the selected feature</td><td><kbd>H</kbd></td><td>Help</td></tr>
+</table>
+
+<h2>Good habits</h2>
+<ul>
+  <li>Buildings: trace the footprint where the building meets the ground, not the roof, which leans in the photo.</li>
+  <li>Don't overlap buildings, and don't join them to roads.</li>
+  <li>Map only inside your square. Whoever maps the next square will finish the edges.</li>
+  <li>If the imagery is blurry or cloudy, say so in the comment and stop mapping that task. That's useful information too.</li>
+  <li>Not sure? Leave it out. A validator checks every task, so a careful partial job beats a fast, messy one.</li>
+</ul>
+
+<h2>Common snags</h2>
+<table class="snags">
+  <tr><th>Problem</th><th>Fix</th></tr>
+  <tr><td>Not sure you're in the right project</td><td>Compare the number at the top of the project page with this month's, above. If they differ, search for this month's number again.</td></tr>
+  <tr><td>Not sure what to map</td><td>Reopen the project's Instructions tab, or ask a helper.</td></tr>
+  <tr><td>No confirmation email</td><td>Check spam, then try another address.</td></tr>
+  <tr><td>iD opened in the wrong place</td><td>Go back to the Tasking Manager and click Map on your task again.</td></tr>
+  <tr><td>iD didn't open at all</td><td>Allow pop-ups for tasks.hotosm.org, then click Map again.</td></tr>
+  <tr><td>The project has no available squares</td><td>Ask a helper for a backup project.</td></tr>
+  <tr><td>Trackpad is hard to trace with</td><td>Ask a helper for a spare mouse.</td></tr>
+</table>
+
+<h2>Keep going on your own</h2>
+<ul>
+  <li>Same account, any time: tasks.hotosm.org. Filter projects for beginners.</li>
+  <li>Check your OSM messages in the next week or two. Validators sometimes leave feedback on first edits.</li>
+  <li>LearnOSM beginner guide: learnosm.org/en/beginner</li>
+  <li>MapSwipe, a phone app for a few spare minutes: missingmaps.org/mapswipe</li>
+  <li>More next steps: the On Your Own guide on the mapathon website.</li>
+</ul>
+
+<p class="foot">Adapted from the LearnOSM guides (CC0) and the iD editor's shortcut list. Map data © OpenStreetMap contributors (ODbL). Workshop materials CC BY-NC-SA 4.0. Developed by the Geospatial Research Lab, American University Library.</p>
+```

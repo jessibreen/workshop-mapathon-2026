@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" aria-hidden="true">
+  <!-- Map-grid lines from the Mapathon poster (Pin board), stretched to 16:9. -->
+  <rect width="1600" height="900" fill="#2340C8"/>
+  <g fill="none" stroke="#3B57DA" stroke-width="19" stroke-linecap="round">
+    <path d="M-39 256 L1646 196"/>
+    <path d="M-39 596 C392 588 745 648 1646 613"/>
+    <path d="M490 -17 L647 920"/>
+    <path d="M1372 -17 C1254 256 1490 511 1352 920"/>
+  </g>
+  <g fill="none" stroke="#3450D4" stroke-width="8">
+    <path d="M-39 443 L1646 400"/>
+    <path d="M-39 767 L1646 733"/>
+    <path d="M235 -17 L294 920"/>
+    <path d="M980 -17 L1019 920"/>
+  </g>
+</svg>

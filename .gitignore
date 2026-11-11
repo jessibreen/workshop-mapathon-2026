@@ -1,0 +1,18 @@
+# Mac OS files
+.DS_Store
+
+# Quarto render artifacts (the rendered .html and .pdf files ARE committed:
+# GitHub Pages serves them)
+.quarto/
+**/.quarto/
+*_files/
+**/*.quarto_ipynb
+
+# Editor settings (e.g. VS Code's Live Server port)
+.vscode/
+
+# Python caches from the build scripts
+__pycache__/
+
+# Office lock / temp files
+~$*

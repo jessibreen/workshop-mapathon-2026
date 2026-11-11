@@ -1,0 +1,54 @@
+---
+pagetitle: "Library Mapathon: sign-in sheet"
+format:
+  html:
+    minimal: true
+    embed-resources: true
+    css: handouts.css
+lang: en
+---
+
+```{=html}
+<style>
+@page { size: letter landscape; margin: 0.4in; }
+body { max-width: 10.2in; }
+.signin { width: 100%; border-collapse: collapse; table-layout: fixed; margin-top: 6pt; }
+.signin th { background: var(--blue); color: var(--cream); font-size: 8.5pt; text-align: left; padding: 5pt 6pt; vertical-align: bottom; line-height: 1.2; }
+.signin td { height: 0.36in; border-bottom: 1pt solid var(--line); border-right: 1pt solid var(--line); padding: 0 6pt; }
+.signin td:last-child { border-right: 0; }
+.signin tr:nth-child(even) td { background: var(--paper); }
+.signin .bxc { text-align: center; }
+.signin .box { display: inline-block; width: 12pt; height: 12pt; border: 1.5pt solid var(--coral); border-radius: 2pt; vertical-align: middle; }
+.intro { font-size: 10pt; margin: 0; max-width: 9.6in; }
+.fine { font-size: 8pt; color: var(--muted); margin-top: 6pt; }
+</style>
+<div class="head">
+  <div>
+    <div class="eyebrow">Library Mapathon · sign in</div>
+    <h1>Welcome! Please sign in</h1>
+  </div>
+  <div class="meta">Date: ____________________<br>DRI Lab, Bender Library</div>
+</div>
+<p class="intro">Sign in so we know who came. Check a box if you'd like a reminder before next month's session or, if you're a student, if you'd like to hear about relaunching <b>AU YouthMappers</b>, our chapter of the global student mapping network. No commitment.</p>
+
+<table class="signin">
+  <colgroup><col style="width:19%"><col style="width:23%"><col style="width:20%"><col style="width:16%"><col style="width:10%"><col style="width:12%"></colgroup>
+  <tr><th>Name</th><th>Email</th><th>Student, faculty or staff?<br>Department</th><th>OSM username<br><span style="font-weight:400">(optional)</span></th><th>Remind me<br>next month</th><th>AU YouthMappers<br>interest (students)</th></tr>
+  <tr><td></td><td></td><td></td><td></td><td class="bxc"><span class="box"></span></td><td class="bxc"><span class="box"></span></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td class="bxc"><span class="box"></span></td><td class="bxc"><span class="box"></span></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td class="bxc"><span class="box"></span></td><td class="bxc"><span class="box"></span></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td class="bxc"><span class="box"></span></td><td class="bxc"><span class="box"></span></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td class="bxc"><span class="box"></span></td><td class="bxc"><span class="box"></span></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td class="bxc"><span class="box"></span></td><td class="bxc"><span class="box"></span></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td class="bxc"><span class="box"></span></td><td class="bxc"><span class="box"></span></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td class="bxc"><span class="box"></span></td><td class="bxc"><span class="box"></span></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td class="bxc"><span class="box"></span></td><td class="bxc"><span class="box"></span></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td class="bxc"><span class="box"></span></td><td class="bxc"><span class="box"></span></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td class="bxc"><span class="box"></span></td><td class="bxc"><span class="box"></span></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td class="bxc"><span class="box"></span></td><td class="bxc"><span class="box"></span></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td class="bxc"><span class="box"></span></td><td class="bxc"><span class="box"></span></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td class="bxc"><span class="box"></span></td><td class="bxc"><span class="box"></span></td></tr>
+</table>
+
+<p class="fine">On your way out, please scan the exit survey code on your table. We use your information only to contact you about future mapathons; your OSM username lets us credit your edits. We may take a group photo for the library's news page and social media: if you'd rather not be in it, tell the host or step out of the frame, and we won't post names with a photo without asking. Geospatial Research Lab, American University Library.</p>
+```

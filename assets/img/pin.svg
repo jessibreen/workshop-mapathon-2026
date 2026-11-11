@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="430 320 340 512" width="340" height="512" aria-hidden="true">
+  <!-- The pin from the Mapathon poster (Pin board). -->
+  <ellipse cx="600" cy="812" rx="84" ry="16" fill="#18309E"/>
+  <path d="M600 800 C600 800 440 610 440 490 C440 400 512 330 600 330 C688 330 760 400 760 490 C760 610 600 800 600 800 Z" fill="#F2704E" stroke="#FFF4DE" stroke-width="6"/>
+  <circle cx="600" cy="490" r="124" fill="#FFF4DE"/>
+</svg>

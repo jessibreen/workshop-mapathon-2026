@@ -1,0 +1,8 @@
+project:
+  type: default
+  render:
+    - slides/slides.qmd
+    - handouts/cheat-sheet.qmd
+    - handouts/on-your-own.qmd
+    - handouts/sign-in-sheet.qmd
+  post-render: scripts/fix_liveserver.py

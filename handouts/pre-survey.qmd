@@ -1,0 +1,52 @@
+---
+pagetitle: "Library Mapathon: check-in survey"
+format:
+  html:
+    minimal: true
+    embed-resources: true
+    css: handouts.css
+lang: en
+---
+
+```{=html}
+<style>
+@page { size: letter; margin: 0.4in 0.45in; }
+.copy { height: 4.85in; box-sizing: border-box; padding-top: 2pt; overflow: hidden; }
+.cut { border-top: 1.2pt dashed #B9B2A3; margin: 0 0 12pt; position: relative; height: 0; }
+.cut span { position: absolute; top: -7pt; left: 50%; transform: translateX(-50%); background: #fff; padding: 0 6pt; font-size: 7.5pt; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; }
+.q { margin: 0 0 9pt; }
+.q > p { margin: 0 0 4pt; font-size: 10.5pt; }
+.q em { font-style: normal; color: var(--muted); font-size: 9pt; }
+.opts { display: grid; justify-content: start; gap: 4pt 16pt; font-size: 9.5pt; padding-left: 12pt; }
+.opts span { white-space: nowrap; }
+i.bx { display: inline-block; width: 9pt; height: 9pt; border: 1.2pt solid var(--coral); border-radius: 2pt; margin-right: 5pt; vertical-align: -1pt; }
+.head { margin-bottom: 9pt; }
+</style>
+<div class="copy">
+<div class="head">
+  <div>
+    <div class="eyebrow">Library Mapathon · check-in</div>
+    <h1>Welcome! Four quick questions</h1>
+  </div>
+  <div class="meta">Under a minute. No names needed.<br>Please leave it at the sign-in table.</div>
+</div>
+<div class="q"><p><b>1.</b> I am a… <em>Check one.</em></p><div class="opts" style="grid-template-columns: repeat(5, auto)"><span><i class="bx"></i>Undergraduate student</span><span><i class="bx"></i>Graduate student</span><span><i class="bx"></i>Faculty</span><span><i class="bx"></i>Staff</span><span><i class="bx"></i>Other: ____________</span></div></div>
+<div class="q"><p><b>2.</b> Which school or college are you part of? <em>Check one.</em></p><div class="opts" style="grid-template-columns: repeat(3, auto)"><span><i class="bx"></i>College of Arts and Sciences</span><span><i class="bx"></i>Kogod School of Business</span><span><i class="bx"></i>School of Communication</span><span><i class="bx"></i>School of Education</span><span><i class="bx"></i>School of International Service</span><span><i class="bx"></i>School of Public Affairs</span><span><i class="bx"></i>Washington College of Law</span><span><i class="bx"></i>Office of Graduate and Professional Studies</span><span><i class="bx"></i>University Library</span><span><i class="bx"></i>Another office or unit (staff)</span><span><i class="bx"></i>Other: ____________________</span></div></div>
+<div class="q"><p><b>3.</b> Have you edited OpenStreetMap before?</p><div class="opts" style="grid-template-columns: repeat(3, auto)"><span><i class="bx"></i>No, this is my first time</span><span><i class="bx"></i>Yes, once or twice</span><span><i class="bx"></i>Yes, regularly</span></div></div>
+<div class="q"><p><b>4.</b> Have you mapped a project in the HOT Tasking Manager before?</p><div class="opts" style="grid-template-columns: repeat(4, auto)"><span><i class="bx"></i>No</span><span><i class="bx"></i>Yes, once or twice</span><span><i class="bx"></i>Yes, regularly</span><span><i class="bx"></i>I&#x27;m not sure</span></div></div>
+</div>
+<div class="cut"><span>cut here</span></div>
+<div class="copy">
+<div class="head">
+  <div>
+    <div class="eyebrow">Library Mapathon · check-in</div>
+    <h1>Welcome! Four quick questions</h1>
+  </div>
+  <div class="meta">Under a minute. No names needed.<br>Please leave it at the sign-in table.</div>
+</div>
+<div class="q"><p><b>1.</b> I am a… <em>Check one.</em></p><div class="opts" style="grid-template-columns: repeat(5, auto)"><span><i class="bx"></i>Undergraduate student</span><span><i class="bx"></i>Graduate student</span><span><i class="bx"></i>Faculty</span><span><i class="bx"></i>Staff</span><span><i class="bx"></i>Other: ____________</span></div></div>
+<div class="q"><p><b>2.</b> Which school or college are you part of? <em>Check one.</em></p><div class="opts" style="grid-template-columns: repeat(3, auto)"><span><i class="bx"></i>College of Arts and Sciences</span><span><i class="bx"></i>Kogod School of Business</span><span><i class="bx"></i>School of Communication</span><span><i class="bx"></i>School of Education</span><span><i class="bx"></i>School of International Service</span><span><i class="bx"></i>School of Public Affairs</span><span><i class="bx"></i>Washington College of Law</span><span><i class="bx"></i>Office of Graduate and Professional Studies</span><span><i class="bx"></i>University Library</span><span><i class="bx"></i>Another office or unit (staff)</span><span><i class="bx"></i>Other: ____________________</span></div></div>
+<div class="q"><p><b>3.</b> Have you edited OpenStreetMap before?</p><div class="opts" style="grid-template-columns: repeat(3, auto)"><span><i class="bx"></i>No, this is my first time</span><span><i class="bx"></i>Yes, once or twice</span><span><i class="bx"></i>Yes, regularly</span></div></div>
+<div class="q"><p><b>4.</b> Have you mapped a project in the HOT Tasking Manager before?</p><div class="opts" style="grid-template-columns: repeat(4, auto)"><span><i class="bx"></i>No</span><span><i class="bx"></i>Yes, once or twice</span><span><i class="bx"></i>Yes, regularly</span><span><i class="bx"></i>I&#x27;m not sure</span></div></div>
+</div>
+```

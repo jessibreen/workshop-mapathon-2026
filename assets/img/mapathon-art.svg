@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="A simple street map with one neighborhood left blank and outlined in dashes. A map pin points to it, and one building in the gap is being filled in.">
+  <title>Library Mapathon key art</title>
+  <defs>
+    <clipPath id="card"><rect x="0" y="0" width="1200" height="800" rx="40"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <!-- land -->
+    <rect x="0" y="0" width="1200" height="800" fill="#2340C8"/>
+    <!-- park -->
+    <ellipse cx="1010" cy="200" rx="160" ry="92" fill="#3450D4"/>
+    <!-- river -->
+    <path d="M-20 600 C 250 520, 420 700, 700 610 S 1050 470, 1220 520" fill="none" stroke="#18309E" stroke-width="80"/>
+    <!-- minor streets -->
+    <g fill="none" stroke="#3B57DA" stroke-width="14" stroke-linecap="round">
+      <line x1="-10" y1="140" x2="820" y2="140"/>
+      <line x1="-10" y1="440" x2="1210" y2="440"/>
+      <line x1="160" y1="-10" x2="160" y2="560"/>
+      <line x1="600" y1="-10" x2="600" y2="580"/>
+      <line x1="40" y1="680" x2="620" y2="760"/>
+    </g>
+    <!-- main streets -->
+    <g fill="none" stroke="#3B57DA" stroke-width="26" stroke-linecap="round">
+      <line x1="-10" y1="300" x2="1210" y2="300"/>
+      <line x1="380" y1="-10" x2="380" y2="810"/>
+      <line x1="820" y1="-10" x2="820" y2="560"/>
+    </g>
+    <!-- buildings already on the map -->
+    <g fill="#18309E">
+      <rect x="28" y="28" width="52" height="40"/><rect x="96" y="34" width="40" height="56"/><rect x="30" y="84" width="48" height="36"/>
+      <rect x="190" y="26" width="62" height="42"/><rect x="272" y="22" width="46" height="58"/><rect x="330" y="36" width="30" height="44"/><rect x="196" y="86" width="70" height="36"/><rect x="290" y="96" width="58" height="26"/>
+      <rect x="410" y="28" width="56" height="44"/><rect x="482" y="24" width="40" height="60"/><rect x="538" y="34" width="40" height="40"/><rect x="418" y="90" width="80" height="30"/><rect x="520" y="88" width="52" height="34"/>
+      <rect x="630" y="26" width="60" height="40"/><rect x="760" y="24" width="38" height="40"/><rect x="720" y="92" width="70" height="28"/>
+      <rect x="26" y="170" width="56" height="44"/><rect x="98" y="166" width="40" height="60"/><rect x="34" y="232" width="64" height="36"/>
+      <rect x="186" y="168" width="48" height="48"/><rect x="250" y="164" width="60" height="40"/><rect x="320" y="176" width="40" height="52"/><rect x="190" y="232" width="80" height="34"/><rect x="292" y="240" width="56" height="30"/>
+      <rect x="414" y="166" width="70" height="42"/><rect x="500" y="172" width="44" height="48"/><rect x="552" y="166" width="30" height="58"/><rect x="420" y="226" width="52" height="44"/><rect x="490" y="236" width="84" height="30"/>
+      <rect x="28" y="330" width="58" height="44"/><rect x="104" y="336" width="36" height="56"/><rect x="34" y="392" width="44" height="30"/>
+      <rect x="186" y="330" width="74" height="40"/><rect x="276" y="326" width="40" height="56"/><rect x="330" y="340" width="34" height="40"/><rect x="196" y="384" width="56" height="38"/>
+      <rect x="414" y="328" width="52" height="48"/><rect x="484" y="334" width="64" height="36"/><rect x="560" y="326" width="24" height="56"/><rect x="420" y="392" width="90" height="30"/>
+      <rect x="850" y="330" width="60" height="44"/><rect x="930" y="326" width="46" height="58"/><rect x="1000" y="338" width="70" height="40"/><rect x="1090" y="330" width="48" height="52"/><rect x="860" y="392" width="80" height="32"/><rect x="1010" y="394" width="60" height="30"/>
+      <rect x="30" y="462" width="50" height="34"/><rect x="100" y="458" width="44" height="40"/><rect x="200" y="460" width="60" height="36"/><rect x="420" y="468" width="56" height="30"/><rect x="870" y="456" width="56" height="28"/>
+      <rect x="80" y="712" width="60" height="38"/><rect x="200" y="700" width="44" height="50"/><rect x="460" y="724" width="64" height="40"/><rect x="900" y="640" width="58" height="40"/><rect x="990" y="628" width="44" height="52"/><rect x="1080" y="616" width="60" height="40"/>
+    </g>
+    <!-- the gap: a neighborhood not on the map yet -->
+    <rect x="612" y="152" width="196" height="276" rx="8" fill="#FFF4DE" stroke="#F2704E" stroke-width="5" stroke-dasharray="16 11"/>
+    <line x1="624" y1="300" x2="796" y2="300" stroke="#E9D9C3" stroke-width="10" stroke-dasharray="4 14" stroke-linecap="round"/>
+    <g fill="none" stroke="#F2704E" stroke-width="3" stroke-dasharray="7 6">
+      <rect x="632" y="172" width="54" height="42"/><rect x="706" y="168" width="40" height="54"/><rect x="762" y="176" width="32" height="40"/><rect x="636" y="232" width="68" height="36"/>
+      <rect x="630" y="326" width="62" height="40"/><rect x="712" y="324" width="44" height="58"/><rect x="766" y="336" width="30" height="44"/><rect x="640" y="388" width="50" height="30"/>
+    </g>
+    <!-- the building being mapped -->
+    <rect x="726" y="236" width="62" height="36" fill="#F2704E" stroke="#F2704E" stroke-width="4"/>
+    <!-- cursor -->
+    <path d="M778 256 L778 300 L790 289 L799 309 L808 305 L799 285 L815 284 Z" fill="#1A2E8F" stroke="#FFF4DE" stroke-width="3" stroke-linejoin="round"/>
+    <!-- pin -->
+    <g transform="translate(710 158) scale(0.27) translate(-600 -800)">
+      <ellipse cx="600" cy="812" rx="84" ry="16" fill="#18309E"/>
+      <path d="M600 800 C600 800 440 610 440 490 C440 400 512 330 600 330 C688 330 760 400 760 490 C760 610 600 800 600 800 Z" fill="#F2704E" stroke="#FFF4DE" stroke-width="16"/>
+      <circle cx="600" cy="490" r="124" fill="#FFF4DE"/>
+    </g>
+  </g>
+</svg>

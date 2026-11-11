@@ -1,0 +1,67 @@
+---
+pagetitle: "Library Mapathon: on your own"
+format:
+  html:
+    minimal: true
+    embed-resources: true
+    css: handouts.css
+lang: en
+---
+
+```{=html}
+<div class="head">
+  <div>
+    <div class="eyebrow">Library Mapathon · after the session</div>
+    <h1>On your own: keep mapping</h1>
+  </div>
+  <div class="meta">Tasking Manager<br><b>tasks.hotosm.org</b></div>
+</div>
+
+<p>You can keep mapping with the same account whenever you like. Each step below says what you should see when it worked.</p>
+
+<h2>1. Map another task</h2>
+<ol>
+  <li>Go to <b>tasks.hotosm.org</b> and log in.</li>
+  <li><span class="path">Explore projects</span>. Filter by difficulty and choose a beginner project. If this month's project still has open squares, you can go back to it.</li>
+  <li>Read the instructions, pick an available square, and follow the steps on your cheat sheet.</li>
+</ol>
+<div class="expect">the square you mapped changes color on the project map.</div>
+
+<h2>2. Read your feedback</h2>
+<ol>
+  <li>On openstreetmap.org, click your username at the top right, then open your messages.</li>
+  <li>Read any comments from validators, and look at the task they mention.</li>
+</ol>
+<div class="expect">you can see whether your task was validated, or what a validator asked you to fix.</div>
+
+<h2>3. Find your edits</h2>
+<ol>
+  <li>On openstreetmap.org, click your username, then your edits (your changesets).</li>
+  <li>Open one to see what you added and the comment you wrote.</li>
+</ol>
+<div class="expect">your changesets are listed with your comments and the hashtags you added.</div>
+
+<h2>4. Try mapping on your phone</h2>
+<ol>
+  <li>Install <b>MapSwipe</b> from your app store (missingmaps.org/mapswipe).</li>
+  <li>Pick a project and swipe through satellite images, tapping the ones with buildings.</li>
+</ol>
+<div class="expect">the app counts the images you've looked at.</div>
+
+<h2>5. Map what you know</h2>
+<ol>
+  <li>On openstreetmap.org, zoom to somewhere you know well, such as campus or your street.</li>
+  <li><span class="path">Edit</span>, then add something missing, like a bench, a bike rack or a building entrance. Save with a comment.</li>
+</ol>
+<div class="expect">after a few minutes, your addition appears on the map at openstreetmap.org.</div>
+
+<h2>6. Learn more</h2>
+<ul>
+  <li>LearnOSM beginner guide: learnosm.org/en/beginner</li>
+  <li>LearnOSM tips for HOT mapping: learnosm.org/en/hot-tips</li>
+  <li>Missing Maps, on how local mappers add what imagery can't show: missingmaps.org/field-mapping</li>
+  <li>Come back next month. Dates are on the mapathon website.</li>
+</ul>
+
+<p class="foot">Workshop materials CC BY-NC-SA 4.0. Map data © OpenStreetMap contributors (ODbL). Geospatial Research Lab, American University Library.</p>
+```

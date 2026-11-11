@@ -1,0 +1,60 @@
+---
+pagetitle: "Library Mapathon: feedback (test run)"
+format:
+  html:
+    minimal: true
+    embed-resources: true
+    css: handouts.css
+lang: en
+---
+
+```{=html}
+<style>
+@page { size: letter; margin: 0.45in; }
+.q { margin: 0 0 7pt; break-inside: avoid; }
+.q > p { margin: 0 0 3pt; font-size: 10pt; }
+.q em { font-style: normal; color: var(--muted); font-size: 9pt; }
+h2 { font-size: 12pt; margin: 9pt 0 5pt; border-bottom: 1pt solid var(--line); padding-bottom: 2pt; }
+.opts { display: grid; grid-template-columns: repeat(2, auto); justify-content: start; gap: 3pt 16pt; font-size: 9.5pt; padding-left: 12pt; }
+.opts span { white-space: nowrap; }
+i.bx { display: inline-block; width: 9pt; height: 9pt; border: 1.2pt solid var(--coral); border-radius: 2pt; margin-right: 5pt; vertical-align: -1pt; }
+.scale { margin-left: 10pt; color: var(--muted); font-size: 9pt; }
+.scale .num { display: inline-block; width: 16pt; text-align: center; font-weight: 800; color: var(--ink); font-size: 10.5pt; }
+.grid { border-collapse: collapse; margin-left: 12pt; font-size: 9pt; }
+.grid th { font-size: 8pt; font-weight: 700; color: var(--navy); padding: 2pt 5pt; text-align: center; vertical-align: bottom; max-width: 0.75in; line-height: 1.15; }
+.grid td { padding: 3pt 5pt; border-bottom: 0.8pt solid var(--line); }
+.grid td.c { text-align: center; }
+.grid tr:nth-child(even) td { background: var(--paper); }
+.lines { margin-left: 12pt; }
+.lines div { height: 0.3in; border-bottom: 0.8pt solid #B9B2A3; }
+.intro { font-size: 10pt; margin: 0 0 4pt; }
+</style>
+<div class="head">
+  <div>
+    <div class="eyebrow">Library Mapathon · feedback · test run</div>
+    <h1>How did it go?</h1>
+  </div>
+  <div class="meta">Please hand this to a helper<br>or leave it at the sign-in table</div>
+</div>
+<p class="intro">Today was a test run, and your answers decide what we fix before the first public mapathon next month. Please be blunt. About 5 minutes; no names needed.</p>
+<h2>Your session</h2>
+<div class="q"><p><b>1.</b> How long did you stay?</p><div class="opts" style="grid-template-columns: repeat(4, auto)"><span><i class="bx"></i>Less than 30 minutes</span><span><i class="bx"></i>30 minutes to 1 hour</span><span><i class="bx"></i>1 to 2 hours</span><span><i class="bx"></i>The whole session</span></div></div>
+<div class="q"><p><b>2.</b> How far did you get? <em>Check all that apply.</em></p><div class="opts" style="grid-template-columns: repeat(2, auto)"><span><i class="bx"></i>Made an OpenStreetMap account</span><span><i class="bx"></i>Logged in to the HOT Tasking Manager</span><span><i class="bx"></i>Did iD&#x27;s practice walkthrough</span><span><i class="bx"></i>Opened this month&#x27;s project and picked a square</span><span><i class="bx"></i>Traced at least one feature</span><span><i class="bx"></i>Saved my edits with a comment</span><span><i class="bx"></i>Submitted my square or chose Stop mapping</span></div></div>
+<div class="q"><p><b>3.</b> Overall, how was the mapathon? <span class='scale'>Poor &nbsp;<span class='num'>1</span><span class='num'>2</span><span class='num'>3</span><span class='num'>4</span><span class='num'>5</span>&nbsp; Great</span> <em>Circle one.</em></p></div>
+<div class="q"><p><b>4.</b> How likely are you to come to another mapathon?</p><div class="opts" style="grid-template-columns: repeat(5, auto)"><span><i class="bx"></i>Very likely</span><span><i class="bx"></i>Likely</span><span><i class="bx"></i>Not sure</span><span><i class="bx"></i>Unlikely</span><span><i class="bx"></i>Very unlikely</span></div></div>
+<h2>Getting started</h2>
+<div class="q"><p><b>5.</b> Before you came, did you use the “Get ready” checklist on the website?</p><div class="opts" style="grid-template-columns: repeat(4, auto)"><span><i class="bx"></i>Yes, all of it</span><span><i class="bx"></i>Some of it</span><span><i class="bx"></i>No</span><span><i class="bx"></i>I didn&#x27;t know about it</span></div></div>
+<div class="q"><p><b>6.</b> How easy was each part?</p><table class="grid" data-quarto-disable-processing="true"><tr><th></th><th>Very hard</th><th>Hard</th><th>OK</th><th>Easy</th><th>Very easy</th><th>Didn't get to it</th></tr><tr><td>Making an account and confirming my email</td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td></tr><tr><td>Logging in to the Tasking Manager</td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td></tr><tr><td>Finding this month&#x27;s project by its number</td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td></tr><tr><td>Understanding the project&#x27;s instructions</td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td></tr><tr><td>Picking a square</td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td></tr><tr><td>Tracing in iD</td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td></tr><tr><td>Saving with the hashtag and a comment</td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td></tr><tr><td>Submitting my square or stopping</td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td></tr></table></div>
+<div class="q"><p><b>7.</b> Where did you get stuck or confused, if anywhere? What happened?</p><div class="lines"><div></div><div></div><div></div></div></div>
+<div class="pagebreak"></div><h2>The walkthrough and materials</h2>
+<div class="q"><p><b>8.</b> How helpful was each one?</p><table class="grid" data-quarto-disable-processing="true"><tr><th></th><th>Not helpful</th><th>Somewhat helpful</th><th>Very helpful</th><th>Didn't use it</th></tr><tr><td>The host&#x27;s walkthrough</td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td></tr><tr><td>The slides</td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td></tr><tr><td>The cheat sheet</td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td></tr><tr><td>The website</td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td></tr><tr><td>The helpers</td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td></tr><tr><td>iD&#x27;s practice walkthrough</td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td><td class="c"><i class="bx"></i></td></tr></table></div>
+<div class="q"><p><b>9.</b> The walkthrough was…</p><div class="opts" style="grid-template-columns: repeat(4, auto)"><span><i class="bx"></i>Too long</span><span><i class="bx"></i>About right</span><span><i class="bx"></i>Too short</span><span><i class="bx"></i>I didn&#x27;t see one</span></div></div>
+<div class="q"><p><b>10.</b> Was anything on the slides, cheat sheet or website confusing, wrong or missing? Tell us what and where.</p><div class="lines"><div></div><div></div><div></div></div></div>
+<div class="q"><p><b>11.</b> Anything about the room, Wi-Fi, laptops, timing or sign-in we should change?</p><div class="lines"><div></div><div></div></div></div>
+<h2>Wrapping up</h2>
+<div class="q"><p><b>12.</b> After today, I understand who uses the map data we added and why.</p><div class="opts" style="grid-template-columns: repeat(5, auto)"><span><i class="bx"></i>Strongly agree</span><span><i class="bx"></i>Agree</span><span><i class="bx"></i>Neutral</span><span><i class="bx"></i>Disagree</span><span><i class="bx"></i>Strongly disagree</span></div></div>
+<div class="q"><p><b>13.</b> What's the one thing we should change before next month?</p><div class="lines"><div></div><div></div></div></div>
+<div class="q"><p><b>14.</b> What should we definitely keep?</p><div class="lines"><div></div><div></div></div></div>
+<div class="q"><p><b>15.</b> Anything else?</p><div class="lines"><div></div><div></div></div></div>
+<p class="foot">Thank you for mapping with us! Geospatial Research Lab, American University Library.</p>
+```

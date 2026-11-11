@@ -1,0 +1,14 @@
+# THIS MONTH: the only values you change for each session.
+# Also update the matching "THIS MONTH" block in index.html, then re-render (see README).
+session:
+  date: "[DATE]"
+  time: "[TIME]"
+  room: "DRI Lab, University Library"
+project:
+  number: "69108"
+  name: "Mapping missing Buildings and Road in Bugesera District – Rilima Sector"
+  place: "Rwanda"
+  requested_by: "EcoMappers, OSM Rwanda"
+  purpose: "Mapping Rwanda's critical infrastructure, vulnerable areas, and resources. Through this initiative, we aim to create accurate, accessible maps that empower local communities, support disaster preparedness and response, and drive sustainable development."
+  backup: "[BACKUP PROJECT #]"
+hashtag: "#AUmapathon"

@@ -1,0 +1,44 @@
+@import url("../assets/fonts.css");
+:root { --ink:#1A2E8F; --blue:#2340C8; --navy:#18309E; --cream:#FFF4DE; --paper:#FFFBEF; --coral-ink:#B2432A; --coral:#F2704E; --muted:#34418A; --line:#E6DCC6; --okbg:#E3E8FA; --ok:#18309E; --stuckbg:#FFE3D6; }
+@page { size: letter; margin: 0.45in; }
+* { box-sizing: border-box; }
+html { background: #fff; }
+body { margin: 0 auto; max-width: 7.6in; font-family: "Bricolage Grotesque", Arial, Helvetica, sans-serif; color: var(--ink); font-size: 10.5pt; line-height: 1.38; background: #fff; }
+h1, h2, h3 { font-family: "Bricolage Grotesque", Arial, Helvetica, sans-serif; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; margin: 0; text-wrap: balance; color: var(--navy); }
+h1 { font-size: 22pt; font-weight: 800; }
+h2 { font-size: 13pt; margin: 12pt 0 4pt; }
+h3 { font-size: 11pt; margin: 0 0 3pt; }
+p { margin: 0 0 5pt; }
+ul, ol { margin: 0 0 5pt; padding-left: 15pt; }
+li { margin-bottom: 1.5pt; }
+ul li::marker { color: var(--coral); }
+a { color: var(--coral-ink); }
+.eyebrow { font-weight: 800; font-size: 8pt; letter-spacing: 0.29em; text-transform: uppercase; color: var(--coral-ink); margin-bottom: 3pt; }
+.head { display: flex; justify-content: space-between; align-items: flex-end; gap: 12pt; border-bottom: 3pt solid var(--blue); padding-bottom: 6pt; margin-bottom: 8pt; }
+.head .meta { text-align: right; font-size: 9pt; color: var(--muted); }
+.head .meta b { color: var(--ink); font-size: 11pt; }
+.path { display: inline-block; font-weight: 700; background: var(--paper); border: 1.2pt solid var(--line); border-radius: 4pt; padding: 0 3pt; white-space: nowrap; }
+.path .sep { color: var(--coral-ink); padding: 0 2pt; }
+kbd { font-family: inherit; font-weight: 800; background: var(--paper); border: 1.2pt solid var(--line); border-bottom-width: 2pt; border-radius: 4pt; padding: 0 3pt; }
+.steps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7pt; }
+.step { border: 1.2pt solid var(--line); border-radius: 7pt; padding: 7pt 8pt; background: var(--paper); break-inside: avoid; }
+.step h3 .n { display: inline-block; background: var(--coral); color: #0F1B57; border-radius: 50%; width: 15pt; height: 15pt; text-align: center; font-family: "Bricolage Grotesque", Arial, sans-serif; font-weight: 800; font-size: 9pt; line-height: 15pt; margin-right: 4pt; }
+.step ol { margin-bottom: 4pt; }
+.check { background: var(--okbg); border-radius: 5pt; padding: 3pt 6pt; font-size: 9.5pt; margin-bottom: 3pt; }
+.check::before { content: "☐  Checkpoint: "; font-weight: 800; color: var(--ok); }
+.stuck { background: var(--stuckbg); border-radius: 5pt; padding: 3pt 6pt; font-size: 9.5pt; }
+.stuck::before { content: "Stuck? "; font-weight: 800; color: var(--coral-ink); }
+.log { margin-top: 8pt; border: 1.5pt dashed var(--coral); border-radius: 7pt; padding: 6pt 9pt; display: flex; gap: 18pt; flex-wrap: wrap; align-items: baseline; }
+.log b { color: var(--coral-ink); }
+.blank { display: inline-block; min-width: 0.9in; border-bottom: 1pt solid var(--ink); }
+.foot { margin-top: 7pt; font-size: 8pt; color: var(--muted); }
+table { border-collapse: collapse; width: 100%; font-size: 9.5pt; margin-bottom: 6pt; }
+th, td { text-align: left; border-bottom: 0.8pt solid var(--line); padding: 2.5pt 4pt; vertical-align: top; }
+th { background: var(--cream); }
+.cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12pt; }
+.pagebreak { break-before: page; }
+.mapsteps li { margin-bottom: 4pt; }
+.mapsteps .check { margin: 2pt 0 0; }
+.snags td:first-child { width: 34%; }
+.expect { background: var(--okbg); border-radius: 5pt; padding: 3pt 6pt; font-size: 9.5pt; margin: 2pt 0 8pt; }
+.expect::before { content: "Expected result: "; font-weight: 800; color: var(--ok); }
